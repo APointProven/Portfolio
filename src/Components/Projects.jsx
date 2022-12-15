@@ -2,9 +2,9 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div name="Projects" className='w-full h-screen bg-primarycolor'>
+        <div name="Projects" className='w-full h-screen bg-secondarycolor'>
             <div className='mx-auto px-8 flex flex-col justify-center h-full'>
-                <h1 className='pl-3 sm:text-center sm:pl-0'>Projects</h1>
+                <h1 className='pl-3 sm:text-center sm:pl-0 text-fontsecondary'>Projects</h1>
                 <p className='text-fontprimary text-2xl font-medium px-3 py-2 sm:text-center sm:px-0'>Here are some projects I've worked on:</p>
 
                 {/* Will need to change bg-url to link for each project image (best if square images) */}

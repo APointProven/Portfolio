@@ -22,17 +22,19 @@ module.exports = {
         'navlg': '940px',
       },
       colors:{
-        primarycolor: '#363636',
-        secondarycolor: '#C2410C',
+        primarycolor: '#003D30',
+        secondarycolor: '#AD343E',
+        colorflipped:'#B83434',
+      
+        fontprimary: '#E0E0CE',
+        fontsecondary: '#C7C7A8',
+        fontbody: '#D7D7C1',
+        fontaccent: '#AD343E',
+        navhover: '#D7D7C1',
     
-        fontprimary: '#E5E7EB',
-        fontsecondary: '#9CA3AF',
-        fontbody: '#6B7280',
-        fontaccent: '#C2410C',
-        navhover: '#9CA3AF',
-    
-        buttoncolor: '#C2410C',
-        buttonhover: '#9A3412',
+        buttoncolor: '#AD343E',
+        buttonhover: '#DC4F4F',
+        buttonfont: '#E5E7EB',
       }
     },
   },

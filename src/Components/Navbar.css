@@ -1,7 +1,7 @@
 li{
-    @apply text-fontprimary px-4 text-2xl my-3 cursor-pointer hover:text-navhover;
+    @apply text-fontsecondary px-4 text-2xl font-medium my-3 cursor-pointer hover:text-navhover;
 }
 
 .active{
-    @apply pb-1 border-b-4 border-b-fontaccent;
+    @apply pb-1 border-b-4 text-fontprimary border-b-fontaccent;
 }

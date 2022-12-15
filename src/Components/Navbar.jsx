@@ -20,9 +20,8 @@ const Navbar = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <div className='fixed w-full top-0 left-0 bg-primarycolor'>
-            <div className='items-center py-4 navlg:px-10 navlg:flex navlg:justify-between'>
-
+        <div className='fixed w-full top-0 left-0'>
+            <div className='items-center py-4 navlg:px-10 navlg:flex navlg:justify-between bg-current'>
                 {/* Logo */}
                 <div className='px-7 cursor-pointer navlg:px-0'>
                     <img src='../images/logo.png' alt='Logo' class='h-8 navlg:object-contain navlg:h-11 transition-all duration-100'></img>
@@ -38,7 +37,7 @@ const Navbar = () => {
 
                 {/* Menu Items */}
                 <ul class={click ? 'navmenu active' : 'nav-menu'} 
-                className={`absolute z-[-1] w-full text-center bg-primarycolor pb-5
+                className={`absolute z-[-1] w-full text-center bg-primarycolor md:bg-transparent pb-5
                 navlg:flex navlg:items-center navlg:pb-0 navlg:static navlg:z-auto navlg:w-auto navlg:pl-0
                 transition-all duration-500 ${open ? 'top-16' : 'top-[-490px]'}`}>
                     {
@@ -49,7 +48,7 @@ const Navbar = () => {
                         ))
                     }
                     <Link to="Contact" smooth={true} duration={500}
-                        className='cursor-pointer bg-buttoncolor text-fontprimary py-2 px-6 
+                        className='cursor-pointer bg-buttoncolor text-buttonfont font-medium py-2 px-6 
                     rounded navlg:ml-8 hover:bg-buttonhover duration-200 text-2xl'>
                         Contact
                     </Link>
