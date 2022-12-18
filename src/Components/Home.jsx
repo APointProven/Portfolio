@@ -11,9 +11,9 @@ const Home = () => {
       <div className='mx-auto px-8 flex flex-col justify-center h-full'>
         {/* Intro */}
         <h1 className='text-6xl font-semibold uppercase text-center text-lmText dark:text-dmText'> Hey, I'm
-          <span className='text-accentTeal bg-none'> Ezekial Pack</span>
+          <span className='text-accentTeal bg-none italic'> Ezekial Pack</span>
           <br></br>but you can call me
-          <span className='text-accentPink bg-none'> Zeke</span>
+          <span className='text-accentPink bg-none italic'> Zeke</span>
         </h1>
 
         {/* Information */}

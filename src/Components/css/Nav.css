@@ -1,10 +1,7 @@
 .burger-menu{
-    @apply stroke-lmText dark:stroke-dmText cursor-pointer;
+    @apply stroke-lmText dark:stroke-dmText cursor-pointer hover:stroke-accentPink;
 }
 
-.burger-menu .closed:hover{
-    @apply  stroke-accentPink
-}
 .burger-menu .closed {
     @apply block;
 }

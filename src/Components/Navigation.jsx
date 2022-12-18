@@ -1,27 +1,30 @@
-import React, { useState } from "react";
-import Logo from '../Components/svg/logo.tsx'
-import Burger from '../Components/svg/hamburger.tsx'
-import './css/Nav.css';
-const navbar = () => {
+import React from 'react'
+
+const Navigation = () => {
     return (
-        <div className="fixed w-full top-0">
-            <div className="items-center py-7 overflow-auto justify-between flex bg-lmBg dark:bg-dmBg">
+        <div className='w-full h-screen bg-lmBg dark:bg-dmBg'>
+            <div className='mx-auto px-60 flex flex-col justify-center h-full'>
+                <div className='grid gap-6 grid-cols-2'>
 
-                {/* Logo */}
-                <div className="px-16  h-auto">
-                    <Logo width="90" height="40" strokeWidth = "4" className="stroke-lmText dark:stroke-dmText cursor-pointer hover:stroke-accentYellow" />
-                </div>
+                    <div className='py-40 border-4 rounded-br-2xl'>
+                        <p className='text-center text-6xl text-lmText dark:text-dmText'> Title </p>
+                    </div>
 
-                <p className="hidden text-accentPink absolute text-2xl font-bold left-40">/</p>
-                <p className="hidden text-dmText dark:text-lmText absolute text-2xl font-medium left-44">APointProven</p>
+                    <div className='py-40 border-4 rounded-bl-2xl'>
+                        <p className='text-center text-6xl text-lmText dark:text-dmText'> Title </p>
+                    </div>
 
-                {/* Burger */}
-                <div className="px-16 h-auto">
-                    <Burger width="72" height="72" strokeWidth = "2" status="hover" />
+                    <div className='py-40 border-4 rounded-tr-2xl'>
+                        <p className='text-center text-6xl text-lmText dark:text-dmText'> Title </p>
+                    </div>
+
+                    <div className='py-40 border-4 rounded-tl-2xl'>
+                        <p className='text-center text-6xl text-lmText dark:text-dmText'> Title </p>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default navbar
+export default Navigation
