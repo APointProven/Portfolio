@@ -1,24 +1,15 @@
-import './App.css'
-import Navbar from './Components/Navbar'
-import Home from './Components/Home';
-import About from './Components/About';
-import Experience from './Components/Experience';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
-
+import './index.css';
+import Nav from './Components/Navigation'
+import Home from './Components/Home'
+import About from './Components/About'
+import Projects from './Components/Projects'
+import Contact from './Components/Contact'
 function App() {
   return (
     <div>
-      <Navbar />
-      <div>
-        <Home />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-      </div>
+      <Nav />
     </div>
-  )
+  );
 }
 
 export default App;
