@@ -1,0 +1,22 @@
+.burger-menu{
+    @apply stroke-lmText dark:stroke-dmText cursor-pointer;
+}
+
+.burger-menu .closed:hover{
+    @apply  stroke-accentPink
+}
+.burger-menu .closed {
+    @apply block;
+}
+
+.burger-menu .hover {
+    @apply hidden;
+}
+
+.burger-menu .animation {
+    @apply hidden;
+}
+
+.burger-menu .open {
+    @apply hidden;
+}
