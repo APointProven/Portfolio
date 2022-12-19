@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import Logo from '../Components/svg/logo.tsx'
 import Burger from '../Components/svg/hamburger.tsx'
-import './css/Nav.css';
+import './css/Nav.css'
 const navbar = () => {
     return (
         <div className="fixed w-full top-0">
-            <div className="items-center py-7 overflow-auto justify-between flex bg-lmBg dark:bg-dmBg">
+            <div className="items-center py-7 overflow-auto justify-between flex">
 
                 {/* Logo */}
                 <div className="px-16  h-auto">

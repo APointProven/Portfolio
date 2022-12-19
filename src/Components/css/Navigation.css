@@ -1,0 +1,7 @@
+.Box {
+    @apply relative py-28 border-4 hover:bg-lmText dark:hover:bg-dmText border-lmText dark:border-dmText;
+}
+
+.Box:hover p {
+    @apply text-lmBg dark:text-dmBg;
+}

@@ -10,7 +10,7 @@ function App() {
     <div>
       <Nav />
       <div>
-        <Navigation />
+        <Home />
       </div>
     </div>
   );
