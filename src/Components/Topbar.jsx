@@ -4,11 +4,9 @@ import Burger from '../Components/svg/hamburger.tsx'
 import './css/Topbar.css'
 
 const Navbar = () => {
-
     const [click, openNav] = useState(false)
     const navClick = () => openNav(!click)
-
-
+    
     return (
         <div className="fixed w-full top-0">
             <div className="items-center py-7 overflow-auto justify-between flex">
