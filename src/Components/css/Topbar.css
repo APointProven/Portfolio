@@ -1,0 +1,21 @@
+.burger{
+    @apply stroke-lmText dark:stroke-dmText cursor-pointer;
+}
+
+#Closed,#Hover,#Open{
+    transition: all 4s ease;
+}
+
+
+#Hover, #Open{
+    display: none;
+}
+
+.burger:hover #Closed,
+.burger #Hover{
+    display: none;
+}
+
+.burger:hover #Hover{
+    display: inline;
+}

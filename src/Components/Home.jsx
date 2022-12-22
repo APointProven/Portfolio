@@ -1,7 +1,5 @@
-import { render } from '@testing-library/react';
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 import './css/Home.css'
-import * as THREE from 'three';
 
 
 
@@ -12,7 +10,7 @@ const Home = () => {
         {/* Intro */}
         <h1 className='text-6xl font-semibold uppercase text-center text-lmText dark:text-dmText tracking-wider'> Hey, I'm
           <span className='text-accentTeal bg-none italic'> Ezekial Pack</span>
-          <br></br>but you can call me
+          <br></br>but you can call me 
           <span className='text-accentPink bg-none italic'> Zeke</span>
         </h1>
 
